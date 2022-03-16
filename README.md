@@ -1,13 +1,17 @@
 # Remix App for StrapiConf 2022 Workshop
 ## Build a Productivity Tips App with Remix, Render, and Strapi
 
-*This branch is step one. See the other branches in this repository for a description of the code changes made in each step as we build a production Remix app that uses Strapi for its data API.*
+*This branch is step two. See the other branches in this repository for a description of the code changes made in each step as we build a production Remix app that uses Strapi for its data API.*
 
-1. **Fork** this repository, and then clone the fork locally.
-2. `cd` into the cloned directory, and run `npm install` to install dependencies.
-3. Check out the Remix dev server: `npm run dev`. The dev server automatically restarts when you make code changes. View it in your browser at http://localhost:3000/.
+In this step, we'll update `app/root.jsx` with some simple styling and a header that will be used on every page of the app.
 
-Move to the next step with `git checkout step-2` when you're ready. You'll need to first stop the Remix dev server with <kbd>Ctrl</kbd> + <kbd>C</kbd> if it's running.
+1. Add a CSS library from https://picocss.com
+2. Change the page title
+3. Add a "Productivity Tips" header and make it link to `/`
+
+If you run the dev server and go to http://localhost:3000 you will see the `Productivity Tips` header we added and a change to the styling on the other content on the page.
+
+When you're ready, move to the next step with `git checkout step-3`. You'll need to first stop the Remix dev server with <kbd>Ctrl</kbd> + <kbd>C</kbd> if it's running.
 
 ---
 
