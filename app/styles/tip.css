@@ -1,0 +1,23 @@
+:root {
+  --grid-spacing-vertical: 1rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: var(--grid-spacing-horizontal);
+  row-gap: var(--grid-spacing-vertical);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid > div {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
